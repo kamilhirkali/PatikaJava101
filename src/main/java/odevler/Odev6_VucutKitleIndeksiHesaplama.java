@@ -13,9 +13,9 @@ Kilo (kg) / Boy(m) * Boy(m)
     public static void main(String[] args) {
         double kg,boy,vki;
         Scanner input =new Scanner(System.in);
-        System.out.println("Kilo degerini giriniz : ");
+        System.out.print("Lutfen kilonuzu kg olarak giriniz : ");
         kg= input.nextDouble();
-        System.out.println("Boy degerini giriniz : ");
+        System.out.print("Lutfen Boyunuzu metre olarak giriniz : ");
         boy= input.nextDouble();
         vki=kg/(boy*boy);
         System.out.println("Vucut Kitle indeksiniz = " + vki);
